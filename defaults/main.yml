@@ -1,0 +1,9 @@
+---
+
+device_name: "sdb"
+logical_volume_name: "lv_u01"
+volume_group_name: "extvg"
+logical_volume_size: "100%FREE"
+file_system_type: "ext4"
+volume_mount_point: "/u01"
+fstab_options: "defaults,acl,user_xattr"
