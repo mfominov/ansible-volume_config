@@ -1,5 +1,9 @@
 ---
 
+- yum:
+    name: 'lvm*'
+    state: present
+
 - name: Create volume group
   lvg: 
     vg: extvg 
